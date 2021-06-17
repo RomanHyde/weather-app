@@ -32,7 +32,7 @@ app.get('/weather', (req, res) => {
 });
 
 app.post('/weather', async(req,res) => {
-    let location = req.bodylocation;
+    let location = req.body.location;
     let countryCode = req.body.countryCode;
     let data = await getWeather(location, countryCode);
     if (data.cod == '404'){
@@ -49,7 +49,7 @@ app.post('/weather', async(req,res) => {
     res.render('weather', {
         name,
         data: {description, temp, feels_like},
-        listExists: true
+        displayWeather: true
     });
     // res.status(200).json(req.body);
 });
