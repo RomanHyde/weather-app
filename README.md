@@ -1,6 +1,7 @@
 ﻿# weather-app
 A weather app created as part of the Code Nation master course.
 ### Using: 
+- Javascript (Node.js)
 - Express-Handlebars
 - dotenv (the repo will not work without the .env files)
 
