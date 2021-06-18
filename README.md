@@ -1,5 +1,7 @@
 ﻿# weather-app
 A weather app created as part of the Code Nation master course.
+[View Basic Weather App](https://lit-everglades-00121.herokuapp.com/)
+
 ### Using: 
 - Javascript (Node.js)
 - Express-Handlebars
@@ -13,4 +15,4 @@ A weather app created as part of the Code Nation master course.
 ## To-Do:
 - Comment it
 - Make it pretty!
-- Deploy to PaaS (Heroku): https://www.heroku.com/
+- Deploy to PaaS (Heroku): https://www.heroku.com/ (done)
